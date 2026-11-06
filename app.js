@@ -13,7 +13,7 @@ console.log("hii");
 // const address="walana";
 // address="Panadura";
 
-const numbers=[1,2,3,4,5];
+let numbers=[1,2,3,4,5];
 console.log(numbers);
 numbers="Hiii";
 console.log(numbers);
