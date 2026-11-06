@@ -90,7 +90,15 @@
 
 //ARRAY LISTS
 
-const nameList=["Saman","Kamal","Nimal","Sunil"];
-nameList.forEach(cName=>(console.log(cName)));
+// const nameList=["Saman","Kamal","Nimal","Sunil"];
+// nameList.forEach(cName=>(console.log(cName)));
 
+// const empSalary=[75000, 30000, 25000,90000,150000];
+// const newSalaryAr=empSalary.map(salary=>salary*2);
+// console.log(newSalaryAr);
+
+
+const nameList=["Saman","Kamal","Nimal","Sunil"];
+const newNameAr=nameList.map(name=>"Welcome "+name +"!");
+console.log(newNameAr);
 
